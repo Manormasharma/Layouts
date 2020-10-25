@@ -1,0 +1,61 @@
+body{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 20px;
+}
+.navbar-short{
+    background-color: cadetblue;
+    min-height: 60px;
+}
+.display-4,.heading{
+    font-family: 'Lobster Two', cursive !important; 
+    margin: 20px 0;
+}
+.banner{
+    background: linear-gradient(45deg, #fff9d1, #b9edff);
+    background-size: cover;
+    padding: 100px;
+}
+.navbar{
+    background: linear-gradient(66deg, rgb(171 168 226 / 51%) 0%, rgb(81 115 187 / 72%) 38%, rgb(117 184 197 / 46%) 100%);
+}
+.slider{
+    background: rgb(255 255 255 / 30%) none repeat scroll 0 0;
+    display: inline-block;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+    outline-offset: -15px;
+    padding: 65px 50px;
+    position: relative;
+    text-align: center;
+}
+.main-sec{
+    padding: 0px;
+}
+section+section{
+    padding: 40px 0px;
+}
+.next-step{
+    padding: 90px 0;
+    background: linear-gradient(45deg, #fff9d1, #b9edff)
+}
+.btn-outline-dark {
+    color: #343a40;
+    border-color: #343a40;
+    border-radius: 20px;
+}
+.our-team{
+    background-color: #dfeeef;
+}
+.slider-contain{
+    background: rgb(232 232 232 / 66%) none repeat scroll 0 0;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+    outline-offset: -15px;
+    padding: 100px 50px;
+    text-align: center;
+}
+.icons{
+    font-size: 50px;
+    margin: 30px 0;
+}
