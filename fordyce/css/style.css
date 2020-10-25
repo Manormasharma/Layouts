@@ -1,0 +1,287 @@
+/* 
+Blue color: #0099cc
+Top border color: #11384b
+background color in container: #e1ecf3
+coloum-bg color: #f1f1f1
+text blue: #0c9cd2
+text-dark blue: #3c7c9b;
+light sky-blue in blocks: #3bb1d8
+behind image:#e4eef0
+*/
+/*------------ Global css -----------*/
+.text-info{
+    color: #0099cc!important;
+}
+
+.text-primary{
+    color: #588bae!important; 
+}
+
+h3{
+    color: #6a6464;
+}
+
+/* ----- End Global css ------- */
+
+body{
+    background-color: #e1ecf3;
+    border-top: 7px solid #11384b ; 
+}
+
+.gradient{
+    height: 400px;
+    background: linear-gradient(#e1ecf3,#fff);
+}   
+
+.call-block{
+    height: 29px;
+    width: 270px;
+    background-color: #11384b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    margin-right: 80px;
+}
+
+.phone{
+    height: 143px;
+    width: 145px;
+    margin-top: -50px;
+    margin-left: -60px;
+}
+
+.assitance{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: -91px;
+    margin-left: 68px;
+}
+
+.texture{
+    background-image: url(../images/texture.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position:57px -20px;
+}
+
+.caduceus{
+    height:160px;
+    width: 150px;
+    margin-top: 71px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.white-space{
+    background-color: white;
+
+}
+
+.blue-space{
+    background-color: #e4eef0;
+    border: 10px solid #fff;
+    height: 300px;
+    box-shadow: 0px 28px 13px -25px #111;
+    width: 838px;
+    margin-top: 37px;
+}
+
+.heading{
+    margin-top: -58px;
+}
+
+.heading h4{
+    font-size: 21px;
+    margin-bottom: 0;
+}
+
+.heading p{
+    font-size: 15px;
+    margin-top: 0
+}
+
+.michael-pic{
+    width: 224px;
+    height: auto;
+}
+
+.right-content{
+    margin-left: 45px;
+}
+
+.big-edge-line{
+    margin-left: 278px;
+    margin-top: -208px;
+}
+
+.bottom-line{
+    background-color: #0099cc;
+    width: 862px;
+    height: 28px;
+    
+}
+
+.bottom-line p{
+    padding-left: 174px;
+    font-size: 19px;
+    margin-top: -2px;  
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 9px solid #11384b;
+    border-left: 13px solid transparent;
+}
+
+/*------------  End .gradient  ----------*/
+
+.gradient-nav{
+    background: linear-gradient(#e7e7e7,rgb(219, 208, 208),#e6e6e6);
+    border: 1px solid #bdbdbd;
+}
+
+.nav-item{
+    padding-left: 60px;
+    color: #111;
+}
+
+.nav-link{
+    color: #111;
+}
+
+.nav-link:active,
+.nav-link:hover{
+    background: linear-gradient(#2a6f91,#11384b);
+    color: #fff;
+}
+
+/* ----- End .gradient-nav ------ */
+
+.main-content{
+    background: linear-gradient(#f5f7fc,#fff);
+    height: 100%;
+}
+
+.michael-img{
+    width: 170px;
+    height: 194px;
+    border: 4px solid #fff;
+    box-shadow:3px 10px 9px -7px #111;
+}
+
+.about-michael{
+    background-color:#f1f1f1;
+    height:432px;
+}
+
+.read-more{
+    margin-left: 575px;
+    margin-bottom: 12px;
+}
+
+.read{
+    width: 140px;
+}
+
+/* ---- End .about-michael ---- */
+.consultant{
+    background-color:#f1f1f1;
+    height: 432px;
+}
+
+.small-block{
+    background-color: #0099cc;
+    width:151px;
+    margin-left: 103px;
+     
+}
+.right-triangle{
+    width: 0;
+    height: 0;
+    border-top: 6px solid #11384b;
+    border-right: 6px solid transparent;
+    margin-left: 248px;
+    margin-top: -16px;
+}
+
+/*---- End .consultant -------- */
+.vertical-text{
+    writing-mode:vertical-lr;
+    background-color: #0099cc;
+    padding: 46px 2px 47px 6px;
+}
+
+.Services{
+    background-color:#f1f1f1;
+}
+
+.surgery-img{
+    width: 265px;
+    border: 2px solid #fff;
+    height: 144px;
+}
+
+
+.types-heading{
+    background-color: #3bb1d8;
+    margin-right: 10px;
+    width: 262px;
+}
+
+.edges{
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid #11384b; 
+    border-right: 26px solid transparent;
+    margin-left: 248px;
+}
+
+.surgery-type{
+    clip-path: 
+    polygon(
+      0% 0%,     /* top left */
+      0% 0%,     /* top left */
+      91% 0%,    /* top right */
+      100% 9%,   /* top right */
+      100% 100%,  /* bottom right */
+      100% 100%,  /* bottom right */
+      0% 100%,   /* bottom left */
+      0 100%      /* bottom left */
+    );
+    background: #0099cc;
+    padding: 0 0 10px 10px;
+}
+
+/*  -------- End .services --------- */
+.footer{
+    background-color: #0099cc;
+    width: 1162px;
+    height: 35px;
+    margin-left: -26px;
+}
+
+.footer-left-edge{
+    width: 0;
+    height: 0;
+    border-top: 10px solid #11384b;
+    border-left: 12px solid transparent;
+    margin-left: -26px;
+}
+
+.footer-right-edge{
+    width: 0;
+    height: 0;
+    border-top: 10px solid #11384b;
+    border-right: 11px solid transparent;
+    margin-right: -26px;
+}
+
+/* -------- End .footer -------- */
+
+.line{
+    background-color: #0099cc;
+    height: 5px;
+    width:100%;
+}

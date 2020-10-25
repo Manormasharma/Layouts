@@ -1,0 +1,59 @@
+.navbar{
+    opacity: 0.8;
+}
+/* ========== NAVBAR ENDS =============== */
+
+
+#home-section{
+    background-image: url(../img/hero-img.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.center-text{
+    margin-top:200px;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.5)
+}
+/*================= HOME SECTION ENDS =======================*/
+
+
+#card-icon{
+    font-size: 70px;
+}
+.icon{
+    font-size: 20px;
+    color: #81d8d0;
+}
+.info-header{   
+    width: 50%;
+    margin: auto;    
+}
+/* ===== WHAT WE DO SECTION ENDS===================== */
+
+#latest-section{
+    background-color: #81d8d0;
+}
+/* ========== LATEST SECTION ENDS */
+
+.team-card{
+    background-color: #81d8d0;
+}
+/* ========= TEAM SECTION ENDS ========= */
+
+.form-group{
+    opacity: 0.9;
+}
+.post-img{
+    height: 90px;
+    width: 90px;
+}
+/* ============ CONTACT SECTION ENDS ============ */
